@@ -11,7 +11,7 @@ const blogPosts = [
     readTime: "4 MIN READ",
     badgeTitle: "Blind Spots",
     badgeDesc: "CI/CD visibility",
-    title: "Building a CI/CD Tool Exposed My Deployment Blind Spots",
+    title: "Building DeployLens Exposed My Deployment Blind Spots",
     description: "I built a CI/CD tool and uncovered a bigger issue: I couldn’t tell what was actually deployed—and neither could my pipeline security.",
     date: "Apr 2026",
     footer: "3 takeaways",

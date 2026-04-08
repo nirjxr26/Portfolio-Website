@@ -28,7 +28,7 @@ const projects: Project[] = [
   {
     title: "AegisMesh",
     subtitle: "Identity Infrastructure & IAM",
-    description: "A centralized system for managing user authentication, access control and permissions across applications. It enforces secure login, role-based access, and policy-driven authorization, built on zero-trust principles with real-time audit tracking.",
+    description: "Most teams end up with auth in one tool, permissions in another, and audit logs somewhere nobody checks. AegisMesh consolidates all of it, its a platform built around a single admin console — MFA, OAuth, session control, RBAC, and audit logs in one place. Which makes access control something you can actually reason about at scale.",
     features: [
       "Token-Based Auth", "TOTP MFA", "Federated Identity", "Enterprise RBAC"
     ],
@@ -44,7 +44,7 @@ const projects: Project[] = [
   {
     title: "DeployLens",
     subtitle: "CI/CD Deployment Insights",
-    description: "A platform that gives real-time visibility into deployment pipelines. It tracks what is being deployed, when and where, while enabling automated rollbacks, monitoring pipeline events, and improving deployment reliability across teams.",
+    description: "GitHub Actions and AWS CodeDeploy don't talk to each other. A workflow run completes, a CodeDeploy execution fires and whether a specific commit reached production is something you have to piece together yourself. DeployLens joins both into one timeline by tracks deployments across GitHub Actions and AWS CodeDeploy from a single dashboard",
     features: [
       "SHA Join Engine", "Real-time WebSockets", "CodeDeploy SDK"
     ],
@@ -61,7 +61,7 @@ const projects: Project[] = [
   {
     title: "VaultLock",
     subtitle: "Password Manager",
-    description: "A secure, offline password manager that stores sensitive data locally on the user’s device. It encrypts all data using strong cryptography and ensures that no information ever leaves the system, following a zero-knowledge approach.",
+    description: "VaultLock is an offline password manager. Credentials stay on your machine, encrypted, with no cloud sync and no external servers. VaultLock keeps everything local: AES-256 encryption, fast retrieval, and a desktop UI that doesn't require an internet connection to function.",
     features: [
       "Zero Knowledge", "AES Encryption", "Argon2 Hashing"
     ],
@@ -77,7 +77,7 @@ const projects: Project[] = [
   {
     title: "FlowStone",
     subtitle: "Lifecycle Task Management",
-    description: "Enterprise resource planning and task lifecycle management platform. Streamlines complex approval workflows and project resource tracking with a real-time collaborative dashboard. Engineered with a custom REST API and robust RBAC to maintain data integrity across large organizations.",
+    description: "FlowStone is a team operations platform covering tasks, approvals, resource planning, and reporting. Most teams use separate tools for task tracking, approvals, and resource allocation.Work gets done, but visibility doesn't. FlowStone puts all of it in one place.",
     features: [
       "Task Engine", "Approval Flow", "Resource Tracking"
     ],
@@ -164,7 +164,7 @@ const Works = () => {
           <p className={styles.headerSubtitle}>Projects I worked on. Each of them containing its own case study.</p>
         </div>
 
-        <motion.div 
+        <motion.div
           className={styles.projectsGrid}
           initial="hidden"
           whileInView="visible"
@@ -215,15 +215,15 @@ const Works = () => {
 
       <AnimatePresence>
         {activeStackProject && (
-          <motion.div 
-            className={styles.modalOverlay} 
+          <motion.div
+            className={styles.modalOverlay}
             onClick={() => setActiveStackProject(null)}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            <motion.div 
-              className={styles.modalContent} 
+            <motion.div
+              className={styles.modalContent}
               onClick={(e) => e.stopPropagation()}
               initial={{ opacity: 0, y: 40, scale: 0.96 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
