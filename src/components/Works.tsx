@@ -28,7 +28,7 @@ interface Project {
 const projects: Project[] = [
   {
     title: "AegisMesh",
-    subtitle: "Identity Infrastructure & IAM",
+    subtitle: "Identity and Access Management",
     description: "Most teams end up with auth in one tool, permissions in another, and audit logs somewhere nobody checks. AegisMesh consolidates all of it, its a platform built around a single admin console — MFA, OAuth, session control, RBAC, and audit logs in one place. Which makes access control something you can actually reason about at scale.",
     features: [
       "Token-Based Auth", "TOTP MFA", "Federated Identity", "Enterprise RBAC"
@@ -44,7 +44,7 @@ const projects: Project[] = [
   },
   {
     title: "DeployLens",
-    subtitle: "CI/CD Deployment Insights",
+    subtitle: "Deployment Insights",
     description: "GitHub Actions and AWS CodeDeploy don't talk to each other. A workflow run completes, a CodeDeploy execution fires and whether a specific commit reached production is something you have to piece together yourself. DeployLens joins both into one timeline by tracks deployments across GitHub Actions and AWS CodeDeploy from a single dashboard",
     features: [
       "SHA Join Engine", "Real-time WebSockets", "CodeDeploy SDK"
@@ -77,7 +77,7 @@ const projects: Project[] = [
   },
   {
     title: "SmartFlow",
-    subtitle: "Lifecycle Task Management",
+    subtitle: "Resource Manager",
     description: "FlowStone is a team operations platform covering tasks, approvals, resource planning, and reporting. Most teams use separate tools for task tracking, approvals, and resource allocation.Work gets done, but visibility doesn't. FlowStone puts all of it in one place.",
     features: [
       "Task Engine", "Approval Flow", "Resource Tracking"
