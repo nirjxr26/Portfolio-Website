@@ -79,7 +79,7 @@ const projects: Project[] = [
   {
     title: "SmartFlow",
     subtitle: "Resource Manager",
-    description: "FlowStone is a team operations platform covering tasks, approvals, resource planning, and reporting. Most teams use separate tools for task tracking, approvals, and resource allocation.Work gets done, but visibility doesn't. FlowStone puts all of it in one place.",
+    description: "SmartFlow is a team operations platform covering tasks, approvals, resource planning, and reporting. Most teams use separate tools for task tracking, approvals, and resource allocation.Work gets done, but visibility doesn't. SmartFlow puts all of it in one place.",
     features: [
       "Task Engine", "Approval Flow", "Resource Tracking"
     ],

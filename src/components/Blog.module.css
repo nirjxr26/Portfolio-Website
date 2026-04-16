@@ -37,9 +37,9 @@
 
 .blogGrid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 420px));
+  grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
-  justify-content: center;
+  width: 100%;
 }
 
 .blogCard {
@@ -82,6 +82,10 @@
 
 .gradientEmerald {
   background: linear-gradient(135deg, #fee2e2 0%, #fff 100%);
+}
+
+.gradientGreen {
+  background: linear-gradient(135deg, #dcfce7 0%, #fff 100%);
 }
 
 .tagGroup {

@@ -83,15 +83,14 @@
   color: var(--ink);
   line-height: 1.25;
   letter-spacing: -0.01em;
-  text-align: center;
+  text-align: left;
 }
 
 .titleWithBadge {
   display: flex;
-  flex-direction: column-reverse;
-  /* Put badge above title */
-  align-items: center;
-  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
   width: 100%;
 }
 
@@ -117,7 +116,7 @@
   font-weight: 500;
   color: var(--mid);
   margin-top: 0.10rem;
-  text-align: center;
+  text-align: left;
   width: 100%;
 }
 
@@ -128,11 +127,13 @@
   color: #52525b;
   margin-bottom: 2rem;
   flex-grow: 1;
+  text-align: left;
 }
 
 .techTags {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
   gap: 0.5rem;
   margin-bottom: 2.5rem;
 }
@@ -350,19 +351,20 @@
   }
 
   .titleWithBadge {
-    flex-direction: column-reverse;
-    align-items: center;
-    text-align: center;
+    display: flex;
+    flex-direction: column-reverse; /* Revert to stack on mobile */
+    align-items: flex-start;
     gap: 0.5rem;
+    width: 100%;
   }
 
   .projectTitle {
     font-size: 1.25rem;
-    text-align: center;
+    text-align: left;
   }
 
   .projectSubtitle {
-    text-align: center;
+    text-align: left;
     width: 100%;
   }
 

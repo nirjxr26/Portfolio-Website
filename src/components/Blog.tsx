@@ -6,6 +6,19 @@ import styles from './Blog.module.css';
 
 const blogPosts = [
   {
+    id: 3,
+    tag: "VERSION CONTROL",
+    readTime: "3 MIN READ",
+    badgeTitle: "Git Workflow",
+    badgeDesc: "Tracking Changes",
+    title: "How GitHub Changed My Workflow",
+    description: "I put off GitHub for longer than made sense. The commands weren't the hard part — figuring out how much I'd already lost without noticing was.",
+    date: "Apr 2026",
+    footer: "3 takeaways",
+    gradientClass: styles.gradientGreen,
+    articleUrl: "#"
+  },
+  {
     id: 1,
     tag: "CI/CD OBSERVABILITY",
     readTime: "4 MIN READ",
