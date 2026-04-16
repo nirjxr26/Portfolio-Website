@@ -7,8 +7,8 @@ import styles from './Blog.module.css';
 const blogPosts = [
   {
     id: 3,
-    tag: "VERSION CONTROL",
-    readTime: "3 MIN READ",
+    tag: "",
+    readTime: "",
     badgeTitle: "Git Workflow",
     badgeDesc: "Tracking Changes",
     title: "How GitHub Changed My Workflow",
@@ -20,8 +20,8 @@ const blogPosts = [
   },
   {
     id: 1,
-    tag: "CI/CD OBSERVABILITY",
-    readTime: "4 MIN READ",
+    tag: "",
+    readTime: "",
     badgeTitle: "Blind Spots",
     badgeDesc: "CI/CD visibility",
     title: "Building DeployLens Exposed My Deployment Blind Spots",
@@ -33,8 +33,8 @@ const blogPosts = [
   },
   {
     id: 2,
-    tag: "System Design",
-    readTime: "2 MIN READ",
+    tag: "",
+    readTime: "",
     badgeTitle: "Logo Fetching",
     badgeDesc: "Reliable, secure icon delivery",
     title: "How VaultLock Reliably Fetches Brand Logos",
