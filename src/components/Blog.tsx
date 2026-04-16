@@ -16,7 +16,7 @@ const blogPosts = [
     date: "Apr 2026",
     footer: "3 takeaways",
     gradientClass: styles.gradientGreen,
-    articleUrl: "#"
+    articleUrl: "https://blog.nirjar.me/how-github-changed-my-workflow"
   },
   {
     id: 1,

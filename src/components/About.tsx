@@ -41,7 +41,7 @@ const About = () => {
 
   return (
     <section id="about" className={styles.aboutSection} data-aos="fade-up">
-      <motion.div 
+      <motion.div
         className={styles.sectionSeparator}
         initial={{ height: 0, opacity: 0 }}
         whileInView={{ height: 80, opacity: 1 }}
@@ -56,7 +56,7 @@ const About = () => {
               data-aos="fade-up"
               data-aos-duration="700"
             >
-              About
+              About Me
             </span>
             <motion.div
               className={styles.indicatorLine}
@@ -69,8 +69,8 @@ const About = () => {
           </div>
 
           <div className={styles.textContainer}>
-            <p 
-              className={styles.paragraph} 
+            <p
+              className={styles.paragraph}
               data-aos="fade-up"
               data-aos-delay="100"
               data-aos-duration="700"
@@ -78,8 +78,8 @@ const About = () => {
               Hi, I'm <strong>Nirjar</strong>, an <strong>Associate Cloud Engineer </strong>residing in <strong>Ahmedabad, Gujarat</strong>. I work in cloud and security — mostly the infrastructure side, understanding how systems are actually put together and what can go wrong.
             </p>
 
-            <p 
-              className={styles.paragraph} 
+            <p
+              className={styles.paragraph}
               data-aos="fade-up"
               data-aos-delay="200"
               data-aos-duration="700"
@@ -88,8 +88,8 @@ const About = () => {
               These days I'm trying to get good at a few specific things rather than knowing a bit about everything.
             </p>
 
-            <p 
-              className={styles.paragraph} 
+            <p
+              className={styles.paragraph}
               data-aos="fade-up"
               data-aos-delay="300"
               data-aos-duration="700"
@@ -140,7 +140,7 @@ const About = () => {
             </div>
 
           </div>
-          </div>
+        </div>
       </div>
     </section>
   );
