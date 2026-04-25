@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://nirjxr.me/sitemap.xml',
+    sitemap: 'https://nirjar.me/sitemap.xml',
   };
 }

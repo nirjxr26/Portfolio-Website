@@ -54,14 +54,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://nirjxr.me"), // Replace with actual domain if different
+  metadataBase: new URL("https://nirjar.me"), // Replace with actual domain if different
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "Nirjar Goswami | Associate Cloud Engineer",
     description: "Portfolio of Nirjar Goswami, an Associate Cloud Engineer specializing in software development, cloud architecture, and security engineering.",
-    url: "https://nirjxr.me",
+    url: "https://nirjar.me",
     siteName: "Nirjar Goswami Portfolio",
     images: [
       {
@@ -106,7 +106,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Nirjar Goswami",
-    url: "https://nirjxr.me",
+    url: "https://nirjar.me",
     jobTitle: "Associate Cloud Engineer",
     address: {
       "@type": "PostalAddress",
