@@ -32,11 +32,11 @@ const HashnodeIcon = ({ size = 28, className }: { size?: number, className?: str
 const GithubIcon = ({ size = 28, className }: { size?: number, className?: string }) => (
   <img
     src="/assets/common/social-icons/github.svg"
-    width={size}
-    height={size}
+    width={size * 1.6}
+    height={size * 1.6}
     alt="GitHub"
     className={className}
-    style={{ display: 'block' }}
+    style={{ display: 'block', transform: 'scale(1.1)' }}
   />
 );
 
@@ -202,7 +202,7 @@ const Contact = () => {
                 {[
                   { icon: Instagram, name: "Instagram", href: "https://www.instagram.com/nirjar_goswami/" },
                   { icon: Twitter, name: "X", href: "https://x.com/nirjxrgoswami" },
-                  { icon: Linkedin, name: "LinkedIn", href: "https://www.linkedin.com/in/nirjarbharthi-goswami-b593633a7" },
+                  { icon: Linkedin, name: "LinkedIn", href: "https://www.linkedin.com/in/nirjxr" },
                   { icon: Ghost, name: "Snapchat", href: "https://www.snapchat.com/@nirjxr26" },
                   { icon: GithubIcon, name: "GitHub", href: "https://github.com/nirjxr26/" },
                   { icon: HashnodeIcon, name: "Hashnode", href: "https://nirjar.hashnode.dev/" }

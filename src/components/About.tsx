@@ -8,11 +8,11 @@ import styles from './About.module.css';
 const GithubIcon = ({ size = 20, className }: { size?: number, className?: string }) => (
   <img
     src="/assets/common/social-icons/github.svg"
-    width={size}
-    height={size}
+    width={size * 1.4}
+    height={size * 1.4}
     alt="GitHub"
     className={className}
-    style={{ display: 'block' }}
+    style={{ display: 'block', transform: 'scale(1.1)' }}
   />
 );
 
@@ -131,7 +131,7 @@ const About = () => {
 
             <div className={styles.actionsContainer}>
               <motion.a
-                href="/resume.pdf"
+                href="/assets/docs/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.downloadBtn}
@@ -150,7 +150,7 @@ const About = () => {
                 {[
                   { name: "Instagram", icon: Instagram, href: "https://www.instagram.com/nirjar_goswami/" },
                   { name: "X (Twitter)", icon: Twitter, href: "https://x.com/nirjxrgoswami" },
-                  { name: "LinkedIn", icon: Linkedin, href: "https://www.linkedin.com/in/nirjarbharthi-goswami-b593633a7" },
+                  { name: "LinkedIn", icon: Linkedin, href: "https://www.linkedin.com/in/nirjxr" },
                   { name: "Snapchat", icon: Ghost, href: "https://www.snapchat.com/@nirjxr26" },
                   { name: "GitHub", icon: GithubIcon, href: "https://github.com/nirjxr26/" }
                 ].map((social, index) => (
