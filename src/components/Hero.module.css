@@ -80,6 +80,7 @@
   font-weight: 700;
   letter-spacing: -0.01em;
   display: inline-block;
+  margin: 0;
   /* background: linear-gradient(90deg, #5B8DEF, #9B51E0, #FF6B6B, #FFA94D, #FFD43B, #69DB7C); */
   -webkit-background-clip: text;
   background: linear-gradient(90deg,

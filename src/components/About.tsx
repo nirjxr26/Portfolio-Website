@@ -51,13 +51,13 @@ const About = () => {
       <div className="container">
         <div className={styles.aboutContainer}>
           <div className={styles.sectionIndicator}>
-            <span
+            <h2
               className={styles.indicatorText}
               data-aos="fade-up"
               data-aos-duration="700"
             >
               About Me
-            </span>
+            </h2>
             <motion.div
               className={styles.indicatorLine}
               initial={{ scaleX: 0, opacity: 0 }}

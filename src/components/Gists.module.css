@@ -85,10 +85,10 @@
   object-fit: contain;
 }
 
-.gistCard:hover .blendedLogo {
+/* .gistCard:hover .blendedLogo {
   opacity: 0.25;
   transform: rotate(0deg) scale(1.05);
-}
+} */
 
 .iconWrapper {
   position: absolute;
@@ -99,10 +99,10 @@
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-.gistCard:hover .iconWrapper {
+/* .gistCard:hover .iconWrapper {
   opacity: 1;
   transform: scale(1.1);
-}
+} */
 
 .gradientAegis {
   background: linear-gradient(135deg,
@@ -229,11 +229,10 @@
   }
 
   /* Disable icon hover effect on mobile */
-  .gistCard:hover .iconWrapper {
+  /* .gistCard:hover .iconWrapper {
     opacity: 0.65;
-    /* Keep same as default */
     transform: none !important;
-  }
+  } */
 
   .iconWrapper svg {
     width: 17px !important;
@@ -248,4 +247,9 @@
     right: -15px;
     opacity: 0.15;
   }
+
+  /* .gistCard:hover .blendedLogo {
+    transform: rotate(-10deg) scale(1);
+    opacity: 0.15;
+  } */
 }

@@ -21,7 +21,7 @@ const Hero = () => {
           </div>
 
           <div className={`${styles.infoGroup} ${styles.heroSubtitle}`} style={{ animationDelay: '0.70s' }}>
-            <span className={styles.intro}>Nirjar Goswami</span>
+            <h1 className={styles.intro}>Nirjar Goswami</h1>
             <span className={styles.role}>Associate Cloud Engineer</span>
           </div>
         </div>

@@ -94,13 +94,13 @@ const Contact = () => {
       <div className="container">
         <div className={styles.contactContainer}>
           <div className={styles.indicator}>
-            <span
+            <h2
               className={styles.indicatorText}
               data-aos="fade-up"
               data-aos-duration="600"
             >
               Get in Touch
-            </span>
+            </h2>
             <p
               className={styles.description}
               data-aos="fade-up"
