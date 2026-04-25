@@ -92,11 +92,15 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+};
+
+export const viewport = {
   themeColor: "#ffffff",
 };
 
 import Navbar from "@/components/Navbar";
 import LenisProvider from "@/components/LenisProvider";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function RootLayout({
   children,
@@ -153,6 +157,7 @@ export default function RootLayout({
         <LenisProvider>
           <Navbar />
           {children}
+          <SpeedInsights />
         </LenisProvider>
       </body>
     </html>

@@ -114,6 +114,7 @@ const Blog = () => {
                     href={post.articleUrl}
                     target="_blank"
                     rel="noreferrer"
+                    aria-label={`Read article: ${post.title}`}
                   >
                     Read article
                   </a>

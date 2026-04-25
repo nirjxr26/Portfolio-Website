@@ -157,7 +157,9 @@ const Works = () => {
                 <div className={styles.cardInfo}>
                   <div className={styles.titleGroup}>
                     <div className={styles.titleWithBadge}>
-                      <h3 className={styles.projectTitle}>{project.title}</h3>
+                      <div className={styles.titleMain}>
+                        <h3 className={styles.projectTitle}>{project.title}</h3>
+                      </div>
                       <div className={styles.rightGroup}>
                         {project.badge && (
                           <span className={styles.institutionBadge}>
@@ -182,6 +184,7 @@ const Works = () => {
                     <button
                       onClick={() => setActiveStackProject(project)}
                       className={styles.moreTags}
+                      aria-label={`View full technology stack for ${project.title}`}
                       suppressHydrationWarning
                     >
                       + View Full Stack
@@ -189,7 +192,13 @@ const Works = () => {
                   </div>
 
                   <div className={styles.cardActions}>
-                    <a href={project.links.github} className={styles.previewButton} target="_blank" rel="noopener noreferrer">
+                    <a 
+                      href={project.links.github} 
+                      className={styles.previewButton} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      aria-label={`View ${project.title} source code on GitHub`}
+                    >
                       <Github size={16} />
                       <span>Github</span>
                     </a>

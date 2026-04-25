@@ -57,6 +57,7 @@ const Gists = () => {
                     href={post.articleUrl}
                     target="_blank"
                     rel="noreferrer"
+                    aria-label={`Read document: ${post.title}`}
                   >
                     Read Document
                   </a>

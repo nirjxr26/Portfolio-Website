@@ -115,18 +115,18 @@ const About = () => {
 
               <div className={styles.socialRow}>
                 {[
-                  { icon: Instagram, href: "https://www.instagram.com/nirjar_goswami/" },
-                  { icon: Twitter, href: "https://x.com/nirjxrgoswami" },
-                  { icon: Linkedin, href: "https://www.linkedin.com/in/nirjarbharthi-goswami-b593633a7" },
-                  { icon: Ghost, href: "https://www.snapchat.com/@nirjxr26" },
-                  { icon: Github, href: "https://github.com/Nirjar26/" }
+                  { name: "Instagram", icon: Instagram, href: "https://www.instagram.com/nirjar_goswami/" },
+                  { name: "X (Twitter)", icon: Twitter, href: "https://x.com/nirjxrgoswami" },
+                  { name: "LinkedIn", icon: Linkedin, href: "https://www.linkedin.com/in/nirjarbharthi-goswami-b593633a7" },
+                  { name: "Snapchat", icon: Ghost, href: "https://www.snapchat.com/@nirjxr26" },
+                  { name: "GitHub", icon: Github, href: "https://github.com/Nirjar26/" }
                 ].map((social, index) => (
                   <motion.a
                     key={index}
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer me"
-                    aria-label={`Follow Nirjar Goswami on ${social.name || social.icon.name || 'Social Media'}`}
+                    aria-label={`Follow Nirjar Goswami on ${social.name}`}
                     className={styles.socialLink}
                     whileTap={{ scale: 0.9 }}
                     data-aos="fade-up"
