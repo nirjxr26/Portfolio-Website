@@ -1,6 +1,6 @@
 .worksSection {
   background-color: var(--bg);
-  padding: 8rem 0;
+  padding: 4rem 0;
   position: relative;
   overflow: hidden;
 }
@@ -440,7 +440,7 @@
   }
 
   .worksSection {
-    padding: 4rem 0;
+    padding: 3rem 0;
   }
 
   .projectsGrid {

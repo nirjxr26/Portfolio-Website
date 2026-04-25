@@ -1,6 +1,6 @@
 .bioSection {
   background-color: var(--bg-alt);
-  padding: 5rem 0;
+  padding: 4rem 0;
 }
 
 .bioContent {
@@ -19,7 +19,7 @@
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .bioSection {
-    padding: 5rem 0;
+    padding: 4rem 0;
   }
 
   .bio {
@@ -30,7 +30,7 @@
 
 @media (max-width: 768px) {
   .bioSection {
-    padding: 1.5rem 0;
+    padding: 3rem 0;
   }
 
   .bio {

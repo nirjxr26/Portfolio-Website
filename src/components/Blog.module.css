@@ -1,7 +1,7 @@
 .blogSection {
   background-color: #ffffff;
   /* Changed to white to let cards sit on white or light gray */
-  padding: 8rem 0;
+  padding: 4rem 0;
   position: relative;
   overflow: hidden;
 }
@@ -228,7 +228,7 @@
   }
 
   .blogSection {
-    padding: 4rem 0;
+    padding: 3rem 0;
   }
 
   .blogGrid {

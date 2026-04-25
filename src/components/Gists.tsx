@@ -9,7 +9,7 @@ const gistPosts = [
     date: "APRIL 16, 2026",
     title: "AegisMesh - Core Fixes",
     description: "Real IAM fixes covering RBAC conflicts, reauthentication, session control, and audit logging.",
-    articleUrl: "https://gist.github.com/Nirjar26/db51dfe1093fed690f6372116483bc9a",
+    articleUrl: "https://gist.github.com/nirjxr26/db51dfe1093fed690f6372116483bc9a",
     gradientClass: styles.gradientAegis
   },
   {
@@ -18,7 +18,7 @@ const gistPosts = [
     date: "APRIL 16, 2026",
     title: "VaultLock Logo Fetching",
     description: "Securing brand assets by validating messy inputs into consistent icons without exposing the UI to fetch risks.",
-    articleUrl: "https://gist.github.com/Nirjar26/c17a2a37c02277d12829c7e18ab4e319",
+    articleUrl: "https://gist.github.com/nirjxr26/c17a2a37c02277d12829c7e18ab4e319",
     gradientClass: styles.gradientIndigo
   }
 ];

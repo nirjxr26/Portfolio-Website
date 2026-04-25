@@ -20,10 +20,21 @@ import PhoneInput from './PhoneInput';
 
 const HashnodeIcon = ({ size = 28, className }: { size?: number, className?: string }) => (
   <img
-    src="/assets/social%20icons/hashnode-icon.svg"
+    src="/assets/common/social-icons/hashnode.svg"
     width={size}
     height={size}
     alt="Hashnode"
+    className={className}
+    style={{ display: 'block' }}
+  />
+);
+
+const GithubIcon = ({ size = 28, className }: { size?: number, className?: string }) => (
+  <img
+    src="/assets/common/social-icons/github.svg"
+    width={size}
+    height={size}
+    alt="GitHub"
     className={className}
     style={{ display: 'block' }}
   />
@@ -193,7 +204,7 @@ const Contact = () => {
                   { icon: Twitter, name: "X", href: "https://x.com/nirjxrgoswami" },
                   { icon: Linkedin, name: "LinkedIn", href: "https://www.linkedin.com/in/nirjarbharthi-goswami-b593633a7" },
                   { icon: Ghost, name: "Snapchat", href: "https://www.snapchat.com/@nirjxr26" },
-                  { icon: Github, name: "GitHub", href: "https://github.com/Nirjar26/" },
+                  { icon: GithubIcon, name: "GitHub", href: "https://github.com/nirjxr26/" },
                   { icon: HashnodeIcon, name: "Hashnode", href: "https://nirjar.hashnode.dev/" }
                 ].map((item, index) => (
                   <motion.a

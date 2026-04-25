@@ -126,7 +126,7 @@ export default function RootLayout({
       "availableLanguage": ["English", "Hindi", "Gujarati"]
     },
     sameAs: [
-      "https://github.com/Nirjar26/",
+      "https://github.com/nirjxr26/",
       "https://www.linkedin.com/in/nirjarbharthi-goswami-b593633a7",
       "https://x.com/nirjxrgoswami",
       "https://www.instagram.com/nirjar_goswami/",

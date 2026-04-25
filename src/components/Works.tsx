@@ -36,7 +36,7 @@ const projects: Project[] = [
       "Token-Based Auth", "TOTP MFA", "Federated Identity", "Enterprise RBAC"
     ],
     securityPills: ["CI pipeline", "CodeQL Advance", "Dependabot"],
-    links: { github: "https://github.com/Nirjar26/AegisMesh-IAM", live: "#" },
+    links: { github: "https://github.com/nirjxr26/AegisMesh-IAM", live: "#" },
     icon: <Shield size={24} />,
     techStack: [
       { category: "Frontend", items: ["React 19", "Vite", "Tailwind CSS 4", "React Router DOM v7", "TanStack React Query", "React Hook Form", "Zod", "Axios", "Recharts", "Lucide Icons", "react-hot-toast"] },
@@ -57,7 +57,7 @@ const projects: Project[] = [
       "SHA Join Engine", "Real-time WebSockets", "CodeDeploy SDK"
     ],
     securityPills: ["CodeQL", "Dependabot"],
-    links: { github: "https://github.com/Nirjar26/DeployLens", live: "#" },
+    links: { github: "https://github.com/nirjxr26/DeployLens", live: "#" },
     icon: <Rocket size={24} />,
     techStack: [
       { category: "Frontend", items: ["React 19", "TypeScript", "Zustand", "Axios", "socket.io-client", "CSS Custom Properties", "React Router v6"] },
@@ -77,7 +77,7 @@ const projects: Project[] = [
       "Zero Knowledge", "AES Encryption", "Argon2 Hashing"
     ],
     securityPills: ["CodeQL", "Dependabot", "Gitleaks"],
-    links: { github: "https://github.com/Nirjar26/VaultLock-Password-Manager", live: "#" },
+    links: { github: "https://github.com/nirjxr26/VaultLock-Password-Manager", live: "#" },
     icon: <Lock size={24} />,
     techStack: [
       { category: "Frontend", items: ["PyQt6", "QML", "Fluent UI", "GPU-Accelerated Rendering"] },
@@ -93,7 +93,7 @@ const projects: Project[] = [
       "Task Engine", "Approval Flow", "Resource Tracking"
     ],
     securityPills: [],
-    links: { github: "https://github.com/Nirjar26/SmartFlow", live: "#" },
+    links: { github: "https://github.com/nirjxr26/SmartFlow", live: "#" },
     icon: <Layers size={24} />,
     techStack: [
       { category: "Frontend", items: ["React", "TypeScript", "Tailwind CSS", "Lucide Icons", "React Hook Form", "TanStack Query"] },
