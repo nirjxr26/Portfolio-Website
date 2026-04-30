@@ -6,6 +6,19 @@ import styles from './Blog.module.css';
 
 const blogPosts = [
   {
+    id: 4,
+    tag: "",
+    readTime: "",
+    badgeTitle: "Containerization",
+    badgeDesc: "Docker & K8s",
+    title: "I Thought Docker Was Extra Work. It Wasn't.",
+    description: "Containerizing AegisMesh with Docker, Kubernetes, and Jenkins. How a \"few hours\" turned into a week, and what I'd do differently.",
+    date: "Apr 2026",
+    footer: "3 takeaways",
+    gradientClass: styles.gradientDockerJenkins,
+    articleUrl: "https://blog.nirjar.me/docker-aegismesh"
+  },
+  {
     id: 3,
     tag: "",
     readTime: "",
@@ -30,19 +43,6 @@ const blogPosts = [
     footer: "3 takeaways",
     gradientClass: styles.gradientBlue,
     articleUrl: "https://blog.nirjar.me/ci-cd-blind-spots"
-  },
-  {
-    id: 2,
-    tag: "",
-    readTime: "",
-    badgeTitle: "Logo Fetching",
-    badgeDesc: "Reliable, secure icon delivery",
-    title: "How VaultLock Reliably Fetches Brand Logos",
-    description: 'Taking messy inputs like "GitHub" or "facebook.com" and resolving them into validated icons server-side — the UI never touches untrusted sources.',
-    date: "Apr 2026",
-    footer: "4 takeaways",
-    gradientClass: styles.gradientViolet,
-    articleUrl: "https://blog.nirjar.me/vaultlock-logo-fetching"
   }
 ];
 

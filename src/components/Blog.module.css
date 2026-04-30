@@ -71,7 +71,6 @@
   /* Mimics the yellow-ish gradient in the first card of the image */
 }
 
-/* Overriding colors to match the image precisely */
 .gradientBlue {
   background: linear-gradient(135deg, #fdf4d7 0%, #fff 100%);
 }
@@ -86,6 +85,10 @@
 
 .gradientGreen {
   background: linear-gradient(135deg, #dcfce7 0%, #fff 100%);
+}
+
+.gradientDockerJenkins {
+  background: linear-gradient(135deg, #fee2e2 0%, #e0f2fe 60%, #ffffff 100%);
 }
 
 .tagGroup {
