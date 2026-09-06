@@ -43,31 +43,31 @@ export function Header({ activePath = "/" }: { activePath?: string }) {
           </a>
 
           {/* Desktop Centered Nav Cluster */}
-          <div className="absolute left-1/2 -translate-x-1/2 hidden items-center gap-8 text-xs text-muted md:flex">
+          <div className="absolute left-1/2 -translate-x-1/2 hidden items-center gap-5 lg:gap-8 text-xs text-muted md:flex whitespace-nowrap">
             <a
               href="/"
               aria-label="Home"
-              className="flex items-center text-muted transition-colors hover:text-ink pr-1"
+              className="flex items-center text-muted transition-colors hover:text-ink pr-1 shrink-0"
             >
               <HomeIcon width={15} height={15} />
             </a>
 
             <a
               href="/#what-i-do"
-              className="transition-colors hover:text-ink"
+              className="transition-colors hover:text-ink whitespace-nowrap shrink-0"
             >
               What I do
             </a>
 
             {/* Desktop Works Dropdown Menu */}
             <div
-              className="relative py-3"
+              className="relative py-3 shrink-0"
               onMouseEnter={() => setWorksDropdownOpen(true)}
               onMouseLeave={() => setWorksDropdownOpen(false)}
             >
               <a
                 href="/works"
-                className={`flex items-center gap-1 transition-colors hover:text-ink ${isWorks ? "text-ink font-semibold" : ""
+                className={`flex items-center gap-1 transition-colors hover:text-ink whitespace-nowrap ${isWorks ? "text-ink font-semibold" : ""
                   }`}
               >
                 <span>Works</span>
@@ -82,7 +82,7 @@ export function Header({ activePath = "/" }: { activePath?: string }) {
               {/* Floating Dropdown Card */}
               {worksDropdownOpen && (
                 <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 w-52 z-50">
-                  <div className="rounded-2xl bg-card p-3 shadow-xl text-ink">
+                  <div className="rounded-2xl bg-card p-3 shadow-xl text-ink whitespace-normal">
                     <div className="space-y-1">
                       {WORK_ITEMS.map((item) => (
                         <a
@@ -109,18 +109,18 @@ export function Header({ activePath = "/" }: { activePath?: string }) {
               )}
             </div>
 
-            <a href="/#articles" className="transition-colors hover:text-ink">
+            <a href="/#articles" className="transition-colors hover:text-ink whitespace-nowrap shrink-0">
               Articles
             </a>
             <a
               href={SOCIAL_LINKS.resume}
               target="_blank"
               rel="noreferrer noopener"
-              className="transition-colors hover:text-ink"
+              className="transition-colors hover:text-ink whitespace-nowrap shrink-0"
             >
               Resume
             </a>
-            <a href="/#footer" className="transition-colors hover:text-ink">
+            <a href="/#footer" className="transition-colors hover:text-ink whitespace-nowrap shrink-0">
               Contact
             </a>
           </div>

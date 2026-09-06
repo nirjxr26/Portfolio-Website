@@ -9,39 +9,39 @@ export const hookdropData: CaseStudyData = {
   },
   sections: [
     {
-      title: "What HookDrop does.",
+      title: "What it does.",
       cards: [
         {
-          headline: "Traces events live.",
-          body: "Captures and streams system calls, network events, and container lifecycle changes in real time.",
+          headline: "Nothing gets lost.",
+          body: "Every event streams live over SSE — full context, sub-35ms.",
         },
         {
-          headline: "Verifies image provenance.",
-          body: "Checks cryptographic signatures and SBOM attestations before allowing any image to boot.",
+          headline: "Nothing unverified ships.",
+          body: "Images are signed and scanned before they reach a cluster.",
         },
         {
-          headline: "Enforces runtime policy.",
-          body: "Blocks unauthorized executions, unexpected shell spawns, and abnormal file access attempts immediately.",
+          headline: "Nothing deploys by hand.",
+          body: "Push a commit. Build, sign, sync, and deploy happen on their own.",
         },
       ],
     },
     {
-      title: "Observability & Control.",
+      title: "Ready for real traffic.",
       cards: [
         {
-          headline: "Structured audit trails.",
-          body: "Exports clean JSON events enriched with pod, container, and user metadata directly to your SIEM.",
+          headline: "Locked down by default.",
+          body: "Non-root, read-only, resource-limited, policy-enforced.",
         },
         {
-          headline: "Low overhead sensor.",
-          body: "Leverages modern eBPF probes for kernel-level visibility without degrading cluster performance.",
+          headline: "Traced end to end.",
+          body: "Metrics, logs, and traces — correlated, not guessed at.",
         },
       ],
     },
   ],
   cta: {
-    headline: "Try HookDrop now.",
-    body: "Ready to harden your runtime observability? Check out the GitHub repository.",
+    headline: "See it running.",
+    body: "The full pipeline, the source, and how it stays under 35ms.",
     action: "View on GitHub",
     url: "https://github.com/nirjxr26",
   },
